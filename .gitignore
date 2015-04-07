@@ -22,6 +22,6 @@ function restar (numero, sustraendo) {
 		<input type="button" value="Sumar" onclick="sumar(document.getElementById('numero1').value, document.getElementById('numero2').value);">
 		<input type="button" value="restar" onclick="restar(document.getElementById('numero1').value, document.getElementById('numero2').value);">
 	</form>
-	<div id="resultado" style="border:1p solid #000; width=100px; height:1em;"></div>
+	<div id="resultado" style="border:1px solid #000; width=100px; height:1em; line-height:1em;"></div>
 </body>
 </html>
